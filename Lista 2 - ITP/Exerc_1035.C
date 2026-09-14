@@ -7,3 +7,12 @@ Quatro números inteiros A, B, C e D.
 
 Saída
 Mostre a respectiva mensagem após a validação dos valores.*/
+
+#include <stdio.h>
+
+int main() {
+    int A, B, C, D;
+    printf("Escreva quatro números inteiros a seguir separados por vírgulas e espaço:", A, B, C, D);
+    scanf("%d" "%d" "%d" "%d", &A, &B, &C, &D);
+    return 0;
+}

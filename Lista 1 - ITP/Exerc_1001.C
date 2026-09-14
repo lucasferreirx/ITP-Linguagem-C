@@ -11,5 +11,13 @@ Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável X
 #include <stdio.h>
 
 int main() {
+    int A, B, X;
 
+    printf("Escreva dois numeros inteiros separados por um espaco:", A, B);
+    scanf("%d %d", &A, &B);
+
+    X = A + B;
+    printf("X = %d\n", X);
+
+    return 0;
 }
