@@ -7,3 +7,18 @@ O arquivo de entrada contém 4 valores inteiros.
 
 Saída
 Imprima a mensagem DIFERENCA com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.*/
+
+#include <stdio.h>
+
+int main() {
+    int A, B, C, D, DIFERENCA;
+
+    printf("Digite quatro valores inteiros a seguir separando eles por espacos: ", A, B, C, D);
+    scanf("%d %d %d %d", &A, &B, &C, &D);
+
+    DIFERENCA = (A * B - C * D);
+
+    printf("DIFERENCA = %d", DIFERENCA);
+
+    return 0;
+}

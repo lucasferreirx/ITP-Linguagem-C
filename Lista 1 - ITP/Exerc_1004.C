@@ -7,3 +7,18 @@ O arquivo de entrada contém 2 valores inteiros.
 
 Saída
 Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: "Presentation Error".*/
+
+#include <stdio.h>
+
+int main() {
+    int A, B, PROD;
+
+    printf("Digite dois valores inteiros separados pro um espaco: ", A, B);
+    scanf("%d %d", &A, &B);
+
+    PROD = A * B;
+
+    printf("PROD = %d", PROD);
+
+    return 0;
+}

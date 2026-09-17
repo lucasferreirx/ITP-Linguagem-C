@@ -7,3 +7,18 @@ O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão 
 
 Saída
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".*/
+
+#include <stdio.h>
+
+int main () {
+    double A, B, C, MEDIA;
+
+    printf("Digite tres numeros com casas decimais separados por espacos:", A, B, C);
+    scanf("%lf %lf %lf", &A, &B, &C);
+
+    MEDIA = ( (A*2) + (B*3) + (C*5) ) / (2+3+5);
+
+    printf("MEDIA = %.1lf", MEDIA);
+
+    return 0;
+}

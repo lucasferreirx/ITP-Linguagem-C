@@ -13,5 +13,16 @@ Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exempl
 #include <stdio.h>
 
 int main() {
+    double pi = 3.14159;
+    float raio;
+    double area;
 
+    printf("Qual o valor do raio?", raio);
+    scanf("%f", &raio);
+
+    area = pi * raio * raio;
+
+    printf("A= %lf", area);
+
+    return 0;
 }

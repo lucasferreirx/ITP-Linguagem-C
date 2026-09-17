@@ -7,3 +7,18 @@ O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
 Saída
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".*/
+
+#include <stdio.h>
+
+int main() {
+    double A, B, MEDIA;
+
+    printf("Digite dois valores com uma casa decimal separados por um espaco: ", A, B);
+    scanf("%lf %lf", &A, &B);
+
+    MEDIA = ((A * 3.5) + (B * 7.5)) / (3.5 + 7.5);
+
+    printf("MEDIA = %lf", MEDIA);
+
+    return 0;
+}
