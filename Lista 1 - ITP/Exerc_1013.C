@@ -10,4 +10,11 @@ Entrada
 O arquivo de entrada contém três valores inteiros.
 
 Saída
-Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".*/
+Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
+
+Exemplo de Entrada:
+7 14 106
+
+Exemplo de Saida:
+106 eh o maior
+*/

@@ -6,4 +6,11 @@ Entrada
 O arquivo de entrada contém um valor inteiro N.
 
 Saída
-Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.*/
+Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
+
+Exemplo de Entrada:
+556
+
+Exemplo de Saida:
+0:9:16
+*/

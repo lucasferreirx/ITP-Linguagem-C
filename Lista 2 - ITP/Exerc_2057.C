@@ -8,4 +8,11 @@ Entrada
 A entrada contém 3 inteiros: S (0 ≤ S ≤ 23), T (1 ≤ T ≤ 12) e F (-5 ≤ F ≤ 5), separados por um espaço, indicando respectivamente a hora da saída, o tempo de viagem e o fuso horário do destino com relação à origem.
 
 Saída
-Imprima um inteiro que indica a hora local prevista no destino, conforme os exemplos abaixo.*/
+Imprima um inteiro que indica a hora local prevista no destino, conforme os exemplos abaixo.
+
+Exemplo de Entrada:
+10 4 1
+
+Exemplo de Saida:
+15
+*/

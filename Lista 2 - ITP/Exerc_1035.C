@@ -6,7 +6,22 @@ Entrada
 Quatro números inteiros A, B, C e D.
 
 Saída
-Mostre a respectiva mensagem após a validação dos valores.*/
+Mostre a respectiva mensagem após a validação dos valores.
+
+--- Exemplo 1 ---
+Exemplo de Entrada:
+2 4 3 9
+
+Exemplo de Saida:
+Valores aceitos
+
+--- Exemplo 2 ---
+Exemplo de Entrada:
+5 2 1 3
+
+Exemplo de Saida:
+Valores nao aceitos
+*/
 
 #include <stdio.h>
 

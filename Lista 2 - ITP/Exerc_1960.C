@@ -8,4 +8,19 @@ Entrada
 A entrada é um número inteiro positivo N (0 < N < 1000).
 
 Saída
-A saída é o número N escrito na numeração romana em uma única linha. Use sempre letras maiúsculas.*/
+A saída é o número N escrito na numeração romana em uma única linha. Use sempre letras maiúsculas.
+
+--- Exemplo 1 ---
+Exemplo de Entrada:
+500
+
+Exemplo de Saida:
+D
+
+--- Exemplo 2 ---
+Exemplo de Entrada:
+999
+
+Exemplo de Saida:
+CMXCIX
+*/

@@ -6,4 +6,15 @@ Entrada
 O arquivo de entrada contém 1 valor inteiro qualquer.
 
 Saída
-Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.*/
+Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
+
+Exemplo de Entrada:
+10
+
+Exemplo de Saida:
+1
+3
+5
+7
+9
+*/

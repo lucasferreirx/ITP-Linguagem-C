@@ -6,4 +6,16 @@ Entrada
 A entrada será um valor inteiro positivo.
 
 Saída
-A saída será uma sequência de seis números ímpares.*/
+A saída será uma sequência de seis números ímpares.
+
+Exemplo de Entrada:
+8
+
+Exemplo de Saida:
+9
+11
+13
+15
+17
+19
+*/

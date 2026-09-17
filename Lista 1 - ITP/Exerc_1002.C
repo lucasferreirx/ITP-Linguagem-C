@@ -8,13 +8,20 @@ Entrada
 A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a variável raio.
 
 Saída
-Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".*/
+Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+
+Exemplo de Entrada:
+2.00
+
+Exemplo de Saida:
+A=12.5664
+*/
 
 #include <stdio.h>
 
 int main() {
     double pi = 3.14159;
-    float raio;
+    double raio;
     double area;
 
     printf("Qual o valor do raio?", raio);
@@ -22,7 +29,7 @@ int main() {
 
     area = pi * raio * raio;
 
-    printf("A= %lf", area);
+    printf("A = %.4lf\n", area);
 
     return 0;
 }

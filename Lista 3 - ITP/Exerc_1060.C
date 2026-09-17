@@ -6,4 +6,16 @@ Entrada
 Seis valores, negativos e/ou positivos.
 
 Saída
-Imprima uma mensagem dizendo quantos valores positivos foram lidos.*/
+Imprima uma mensagem dizendo quantos valores positivos foram lidos.
+
+Exemplo de Entrada:
+7
+-5
+6
+-3.4
+4.6
+12
+
+Exemplo de Saida:
+4 valores positivos
+*/

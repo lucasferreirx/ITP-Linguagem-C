@@ -6,4 +6,14 @@ Entrada
 O arquivo de entrada contém 5 valores inteiros quaisquer.
 
 Saída
-Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.*/
+Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
+
+Exemplo de Entrada:
+-5 0 -3 -4 7
+
+Exemplo de Saida:
+2 valor(es) par(es)
+3 valor(es) impar(es)
+1 valor(es) positivo(s)
+3 valor(es) negativo(s)
+*/

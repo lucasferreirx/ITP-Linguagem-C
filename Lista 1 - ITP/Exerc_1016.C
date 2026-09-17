@@ -8,4 +8,11 @@ Entrada
 O arquivo de entrada contém um número inteiro.
 
 Saída
-Imprima o tempo necessário seguido da mensagem "minutos".*/
+Imprima o tempo necessário seguido da mensagem "minutos".
+
+Exemplo de Entrada:
+80
+
+Exemplo de Saida:
+160 minutos
+*/

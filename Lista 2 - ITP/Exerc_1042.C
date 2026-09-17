@@ -6,4 +6,17 @@ Entrada
 A entrada contem três números inteiros.
 
 Saída
-Imprima a saída conforme foi especificado.*/
+Imprima a saída conforme foi especificado.
+
+Exemplo de Entrada:
+7 21 -14
+
+Exemplo de Saida:
+-14
+7
+21
+
+7
+21
+-14
+*/

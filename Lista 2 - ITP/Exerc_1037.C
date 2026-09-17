@@ -9,4 +9,19 @@ Entrada
 O arquivo de entrada contém um número com ponto flutuante qualquer.
 
 Saída
-A saída deve ser uma mensagem conforme exemplo abaixo.*/
+A saída deve ser uma mensagem conforme exemplo abaixo.
+
+--- Exemplo 1 ---
+Exemplo de Entrada:
+25.01
+
+Exemplo de Saida:
+Intervalo (25,50]
+
+--- Exemplo 2 ---
+Exemplo de Entrada:
+-2.5
+
+Exemplo de Saida:
+Fora de intervalo
+*/

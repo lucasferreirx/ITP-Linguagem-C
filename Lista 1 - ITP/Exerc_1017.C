@@ -6,4 +6,12 @@ Entrada
 O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viagem (em horas) e o segundo é a velocidade média durante a mesma (em km/h).
 
 Saída
-Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal.*/
+Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal.
+
+Exemplo de Entrada:
+10
+85
+
+Exemplo de Saida:
+70.833
+*/

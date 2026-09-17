@@ -6,4 +6,11 @@ Entrada
 A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
 
 Saída
-Apresente a duração do jogo conforme exemplo abaixo.*/
+Apresente a duração do jogo conforme exemplo abaixo.
+
+Exemplo de Entrada:
+16 2
+
+Exemplo de Saida:
+O JOGO DUROU 10 HORA(S)
+*/

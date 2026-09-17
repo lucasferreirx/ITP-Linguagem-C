@@ -8,4 +8,12 @@ Entrada
 O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois valores de ponto flutuante: x1 y1 e a segunda linha contém dois valores de ponto flutuante x2 y2.
 
 Saída
-Calcule e imprima o valor da distância segundo a fórmula fornecida, considerando 4 casas decimais.*/
+Calcule e imprima o valor da distância segundo a fórmula fornecida, considerando 4 casas decimais.
+
+Exemplo de Entrada:
+1.0 7.0
+5.0 9.0
+
+Exemplo de Saida:
+4.4721
+*/

@@ -6,4 +6,11 @@ Entrada
 O arquivo de entrada contém 5 valores inteiros quaisquer.
 
 Saída
-Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.*/
+Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
+
+Exemplo de Entrada:
+-5 0 -3 -4 7
+
+Exemplo de Saida:
+2 valores pares
+*/

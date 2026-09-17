@@ -6,7 +6,16 @@ Entrada
 O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
 
 Saída
-Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".*/
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
+
+Exemplo de Entrada:
+5.0
+6.0
+7.0
+
+Exemplo de Saida:
+MEDIA = 6.3
+*/
 
 #include <stdio.h>
 
@@ -18,7 +27,7 @@ int main () {
 
     MEDIA = ( (A*2) + (B*3) + (C*5) ) / (2+3+5);
 
-    printf("MEDIA = %.1lf", MEDIA);
+    printf("MEDIA = %.1lf\n", MEDIA);
 
     return 0;
 }

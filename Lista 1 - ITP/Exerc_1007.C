@@ -6,7 +6,17 @@ Entrada
 O arquivo de entrada contém 4 valores inteiros.
 
 Saída
-Imprima a mensagem DIFERENCA com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.*/
+Imprima a mensagem DIFERENCA com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.
+
+Exemplo de Entrada:
+5
+6
+7
+8
+
+Exemplo de Saida:
+DIFERENCA = -26
+*/
 
 #include <stdio.h>
 
@@ -18,7 +28,7 @@ int main() {
 
     DIFERENCA = (A * B - C * D);
 
-    printf("DIFERENCA = %d", DIFERENCA);
+    printf("DIFERENCA = %d\n", DIFERENCA);
 
     return 0;
 }

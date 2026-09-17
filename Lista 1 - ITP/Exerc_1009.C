@@ -6,4 +6,13 @@ Entrada
 O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.
 
 Saída
-Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.*/
+Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
+
+Exemplo de Entrada:
+JOAO
+500.00
+1000.00
+
+Exemplo de Saida:
+TOTAL = R$ 650.00
+*/

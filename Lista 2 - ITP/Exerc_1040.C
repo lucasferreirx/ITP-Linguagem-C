@@ -7,4 +7,16 @@ Entrada
 A entrada contém quatro números de ponto flutuante correspendentes as notas dos alunos.
 
 Saída
-Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".*/
+Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".
+
+Exemplo de Entrada:
+2.0 4.0 7.5 8.0
+(depois, se em exame) 6.4
+
+Exemplo de Saida:
+Media: 5.4
+Aluno em exame.
+Nota do exame: 6.4
+Aluno aprovado.
+Media final: 5.9
+*/
