@@ -16,3 +16,19 @@ Exemplo de Entrada:
 Exemplo de Saida:
 VOLUME = 113.097
 */
+
+#include <stdio.h>
+
+int main() {
+    double pi = 3.14159;
+    double raio, volume;
+
+    printf("Digite o valor do raio da esfera: ", raio);
+    scanf("%lf", &raio);
+
+    volume = (4.0/3) * pi * raio * raio * raio;
+
+    printf("VOLUME = %.3lf", volume);
+
+    return 0;
+}

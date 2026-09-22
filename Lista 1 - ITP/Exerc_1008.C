@@ -17,3 +17,27 @@ Exemplo de Saida:
 NUMBER = 25
 SALARY = U$ 550.00
 */
+
+#include <stdio.h>
+
+int main() {
+
+    int NUMBER, horas_trabalhadas;
+    float valor_hora, SALARY;
+
+    printf("Escreva o seu numero como funcionario: ", NUMBER);
+    scanf("%d", &NUMBER);
+
+    printf("Escreva o seu numero de horas trabalhadas: ", horas_trabalhadas);
+    scanf("%d", &horas_trabalhadas);
+
+    printf("Escreva o seu valor por hora trabalhada: ", valor_hora);
+    scanf("%f", &valor_hora);
+
+    SALARY = valor_hora * horas_trabalhadas;
+
+    printf("NUMBER = %d\n", NUMBER);
+    printf("SALARY = U$ %.2f\n", SALARY);
+
+    return 0;
+}

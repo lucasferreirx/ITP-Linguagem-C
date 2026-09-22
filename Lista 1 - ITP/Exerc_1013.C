@@ -18,3 +18,34 @@ Exemplo de Entrada:
 Exemplo de Saida:
 106 eh o maior
 */
+
+#include <stdio.h>
+
+int main() {
+    int A, B, C, MaiorABC;
+
+    printf("Digite tres valores inteiros: ", A, B, C);
+    scanf("%d %d %d", &A, &B, &C);
+
+    if (A > B)
+    {
+        if (A > C)
+        {
+            MaiorABC = A;
+        } else {
+            MaiorABC = C;
+        }
+        
+    } else {
+        if (B > C)
+        {
+            MaiorABC = B;
+        } else {
+            MaiorABC = C;
+        }
+    }
+
+    printf("%d eh o maior \n", MaiorABC);
+
+    return 0;
+}

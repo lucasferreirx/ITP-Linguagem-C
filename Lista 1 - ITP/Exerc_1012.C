@@ -23,3 +23,28 @@ TRAPEZIO: 18.200
 QUADRADO: 16.000
 RETANGULO: 12.000
 */
+
+#include <stdio.h>
+
+int main() {
+    float A, B, C;
+    double triangulo, circulo, trapezio, quadrado, retangulo;
+    double pi = 3.14159;
+
+    printf("Escreva tres valores que possuem uma casa decimal: ", A, B, C);
+    scanf("%f %f %f", &A, &B, &C);
+
+    triangulo = A * C / 2;
+    circulo = pi * C * C;
+    trapezio = (A + B) * C / 2;
+    quadrado = B * B;
+    retangulo = A * B;
+
+    printf("TRIANGULO: %.3lf \n", triangulo);
+    printf("CIRCULO: %.3lf \n", circulo);
+    printf("TRAPEZIO: %.3lf \n", trapezio);
+    printf("QUADRADO: %.3lf \n", quadrado);
+    printf("RETANGULO: %.3lf \n", retangulo);
+
+    return 0;
+}

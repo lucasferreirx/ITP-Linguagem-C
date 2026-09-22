@@ -15,3 +15,22 @@ Exemplo de Entrada:
 Exemplo de Saida:
 VALOR A PAGAR: R$ 15.50
 */
+
+#include <stdio.h>
+
+int main() {
+    int codigo1, codigo2, numero1, numero2;
+    double valor1, valor2, valor_pagar;
+
+    printf("Digite o codigo, numero de pecas e valor unitario de cada peca 1: ", codigo1, numero1, valor1);
+    scanf("%d %d %lf", &codigo1, &numero1, &valor1);
+
+    printf("Digite o codigo, numero de pecas e valor unitario de cada peca 2: ", codigo2, numero2, valor2);
+    scanf("%d %d %lf", &codigo2, &numero2, &valor2);
+
+    valor_pagar = numero1 * valor1 + numero2 * valor2;
+
+    printf("VALOR A PAGAR: R$ %.2lf\n", valor_pagar);
+
+    return 0;
+}
